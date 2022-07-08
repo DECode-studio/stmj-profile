@@ -41,7 +41,7 @@
                     <div class="col-md-6" data-aos="zoom-out" data-aos-delay="500">
                         <div class="feature-box d-flex align-items-center">
                             <i class="bi bi-check"></i>
-                            <h3>Menerima data dari banyak node</h3>
+                            <h3>SOS alert trigger</h3>
                         </div>
                     </div>
 
@@ -67,18 +67,21 @@
         <!-- Feature Tabs -->
         <div class="row feture-tabs" data-aos="fade-up">
             <div class="col-lg-6">
-                <h3>Bagian - bagian </h3>
+                <h3>Bagian - bagian pada STMJ</h3>
 
                 <!-- Tabs -->
                 <ul class="nav nav-pills mb-3">
                     <li>
-                        <a class="nav-link active" data-bs-toggle="pill" href="#tab1">Saepe fuga</a>
+                        <a class="nav-link active" data-bs-toggle="pill" href="#tab1">STMJ Sender</a>
                     </li>
                     <li>
-                        <a class="nav-link" data-bs-toggle="pill" href="#tab2">Voluptates</a>
+                        <a class="nav-link" data-bs-toggle="pill" href="#tab2">STMJ Repeater</a>
                     </li>
                     <li>
-                        <a class="nav-link" data-bs-toggle="pill" href="#tab3">Corrupti</a>
+                        <a class="nav-link" data-bs-toggle="pill" href="#tab3">STMJ Receiver</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" data-bs-toggle="pill" href="#tab4">Aplikasi STMJ</a>
                     </li>
                 </ul><!-- End Tabs -->
 
@@ -86,60 +89,105 @@
                 <div class="tab-content">
 
                     <div class="tab-pane fade show active" id="tab1">
-                        <p>Consequuntur inventore voluptates consequatur aut vel et. Eos doloribus expedita. Sapiente atque consequatur minima nihil quae aspernatur quo suscipit voluptatem.</p>
+                        <p>
+                            STMJ Sender merupakan bagian pada STMJ yang berfungsi untuk menerima data koordinat dari satelit dan suhu tubuh dari penjelajah. Data tersebut akan ditransmisikan melalui gelombang radio.
+                        </p>
                         <div class="d-flex align-items-center mb-2">
                             <i class="bi bi-check2"></i>
-                            <h4>Repudiandae rerum velit modi et officia quasi facilis</h4>
+                            <h4>Mengirim data lokasi dan kondisi penjelajah</h4>
                         </div>
-                        <p>Laborum omnis voluptates voluptas qui sit aliquam blanditiis. Sapiente minima commodi dolorum non eveniet magni quaerat nemo et.</p>
+                        <p>
+                            Pengiriman data lokasi berupa koordinat dan suhu tubuh penjelajah secara realtime melalui gelombang radio.
+                        </p>
                         <div class="d-flex align-items-center mb-2">
                             <i class="bi bi-check2"></i>
-                            <h4>Incidunt non veritatis illum ea ut nisi</h4>
+                            <h4>Mengirim peringatan SOS</h4>
                         </div>
-                        <p>Non quod totam minus repellendus autem sint velit. Rerum debitis facere soluta tenetur. Iure molestiae assumenda sunt qui inventore eligendi voluptates nisi at. Dolorem quo tempora. Quia et perferendis.</p>
+                        <p>
+                            STMJ Sender dapat mengirim peringatan SOS, guna memeberitahu pihak pengelola bila terjadi kecelakaan dan membutuhkan penanganan secepat mungkin.
+                        </p>
                     </div><!-- End Tab 1 Content -->
 
                     <div class="tab-pane fade show" id="tab2">
-                        <p>Consequuntur inventore voluptates consequatur aut vel et. Eos doloribus expedita. Sapiente atque consequatur minima nihil quae aspernatur quo suscipit voluptatem.</p>
+                        <p>
+                            STMJ Repeater merupakan bagian pada STMJ yang berfungsi untuk menjembatani STMJ Sender dan STMJ Receiver, agar dapat menambah jarak transmisi data antara STMJ Sender dan Receiver.
+                        </p>
                         <div class="d-flex align-items-center mb-2">
                             <i class="bi bi-check2"></i>
-                            <h4>Repudiandae rerum velit modi et officia quasi facilis</h4>
+                            <h4>Menerima data yang ditransmisikan</h4>
                         </div>
-                        <p>Laborum omnis voluptates voluptas qui sit aliquam blanditiis. Sapiente minima commodi dolorum non eveniet magni quaerat nemo et.</p>
+                        <p>
+                            STMJ Repeater menerima data yang sebelumnya ditransmisikan melalui gelombang radio agar dapat ditransmisikan kembali, agar dapat memperjauh jarak transmisi dan menampilkan data Receive Strength Signa Indicator (RSSI) guna mengetahui efektifitas penempatan STMJ Repeater dalam menejembatani data.
+                        </p>
                         <div class="d-flex align-items-center mb-2">
                             <i class="bi bi-check2"></i>
-                            <h4>Incidunt non veritatis illum ea ut nisi</h4>
+                            <h4>Mentransmisikan data yang diterima</h4>
                         </div>
-                        <p>Non quod totam minus repellendus autem sint velit. Rerum debitis facere soluta tenetur. Iure molestiae assumenda sunt qui inventore eligendi voluptates nisi at. Dolorem quo tempora. Quia et perferendis.</p>
+                        <p>
+                            STMJ Repeater mentransmisikan data yang sebelumnya diterima melalui gelombang radio menuju STMJ Repeater lain sampai STMJ Receiver guna memperjauh jarak transmisi data.
+                        </p>
                     </div><!-- End Tab 2 Content -->
 
                     <div class="tab-pane fade show" id="tab3">
-                        <p>Consequuntur inventore voluptates consequatur aut vel et. Eos doloribus expedita. Sapiente atque consequatur minima nihil quae aspernatur quo suscipit voluptatem.</p>
+                        <p>
+                            STMJ Receiver adalah bagian dari STMH yang berfungsi untuk menerima data yang ditransmisikan oleh STMJ Sender dan STMJ Repeater melalui gelombang radio.
+                        </p>
                         <div class="d-flex align-items-center mb-2">
                             <i class="bi bi-check2"></i>
-                            <h4>Repudiandae rerum velit modi et officia quasi facilis</h4>
+                            <h4>Menerima data yang ditransmisikan</h4>
                         </div>
-                        <p>Laborum omnis voluptates voluptas qui sit aliquam blanditiis. Sapiente minima commodi dolorum non eveniet magni quaerat nemo et.</p>
+                        <p>
+                            STMJ Receiver akan menerima data yang telah ditransmiskan oleh STMJ Sender atau STMJ Repeater dan kemudian data yg diterima disaring agar tidak terjadi penumpangan atau penerimaan data yang bukan berasal dari sistem STMJ. Proses ini juga diperlukan untuk mengetahui Receive Strength Signa Indicator (RSSI) pada signal yang diterima guna mengetahui efektifitas pada transmisi data.
+                        </p>
                         <div class="d-flex align-items-center mb-2">
                             <i class="bi bi-check2"></i>
-                            <h4>Incidunt non veritatis illum ea ut nisi</h4>
+                            <h4>Offline Mode</h4>
                         </div>
-                        <p>Non quod totam minus repellendus autem sint velit. Rerum debitis facere soluta tenetur. Iure molestiae assumenda sunt qui inventore eligendi voluptates nisi at. Dolorem quo tempora. Quia et perferendis.</p>
+                        <p>
+                            STMJ Receiver dapat mengirim data secara offline melalui komunikasi Bluetooth dengan perangkat mobile agar pemantauan data penjelajah dapat dilakukan dengan Offline atau tanpa konektifitas Internet.
+                        </p>
+                        <div class="d-flex align-items-center mb-2">
+                            <i class="bi bi-check2"></i>
+                            <h4>Online Mode</h4>
+                        </div>
+                        <p>
+                            STMJ Receiver akan mengirim data yang sebelumnya ditransmisikan menuju Database melalui jaringan Internet, agar data dapat dipantau melalui perangkat mobile.
+                        </p>
                     </div><!-- End Tab 3 Content -->
+
+                    <div class="tab-pane fade show" id="tab4">
+                        <p>
+                            Aplikasi pada Soul Tracking Mobile Junction (STMJ) berguna untuk memantau data para penjelajah di Alam oleh pihak pengelola agar dapat memberikan penangan segera bila terjadi kecelakaan.
+                        </p>
+                        <div class="d-flex align-items-center mb-2">
+                            <i class="bi bi-check2"></i>
+                            <h4>Realtima Monitoring</h4>
+                        </div>
+                        <p>
+                            Aplikasi pada STMJ dapat menampilkan data yang diperoleh dari Database melalui Internet secara realtime karena menggunakan protocol Websocket.
+                        </p>
+                        <div class="d-flex align-items-center mb-2">
+                            <i class="bi bi-check2"></i>
+                            <h4>Offline Mode</h4>
+                        </div>
+                        <p>
+                            Aplikasi pada STMJ dapat melakukan pemantauan data secara offline atau tanpa konetifitas internet melalui komunikasi Bluetooth denagn STMJ Receiver.
+                        </p>
+                    </div><!-- End Tab 4 Content -->
 
                 </div>
 
             </div>
 
             <div class="col-lg-6">
-                <img src="assets/img/features-2.png" class="img-fluid" alt="">
+                <img src="assets/vector/bg-track.png" class="img-fluid" alt="">
             </div>
 
         </div><!-- End Feature Tabs -->
 
         <!-- Feature Icons -->
         <div class="row feature-icons" data-aos="fade-up">
-            <h3>Ratione mollitia eos ab laudantium rerum beatae quo</h3>
+            <h3>Fitur - fitur pada Aplikasi STMJ</h3>
 
             <div class="row">
 
@@ -153,48 +201,60 @@
                         <div class="col-md-6 icon-box" data-aos="fade-up">
                             <i class="ri-line-chart-line"></i>
                             <div>
-                                <h4>Corporis voluptates sit</h4>
-                                <p>Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip</p>
+                                <h4>Monthly Chart</h4>
+                                <p>
+                                    Aplikasi STMJ dapat menampilkan grafik jumlah data penjelajah bulanan, guna mepermudah pendataan pihak pengelola.
+                                </p>
                             </div>
                         </div>
 
                         <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="100">
                             <i class="ri-stack-line"></i>
                             <div>
-                                <h4>Ullamco laboris nisi</h4>
-                                <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt</p>
+                                <h4>List of Exploler</h4>
+                                <p>
+                                    Aplikasi STMJ dapat menampilkan daftar dan data penjelajah guna mempermudah pemantauan oleh pihak pengelola.
+                                </p>
                             </div>
                         </div>
 
                         <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="200">
                             <i class="ri-brush-4-line"></i>
                             <div>
-                                <h4>Labore consequatur</h4>
-                                <p>Aut suscipit aut cum nemo deleniti aut omnis. Doloribus ut maiores omnis facere</p>
+                                <h4>Offline Mode</h4>
+                                <p>
+                                    Aplikasi pada STMJ dapat melakukan pemantauan data secara offline atau tanpa konetifitas internet melalui komunikasi Bluetooth denagn STMJ Receiver.
+                                </p>
                             </div>
                         </div>
 
                         <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="300">
                             <i class="ri-magic-line"></i>
                             <div>
-                                <h4>Beatae veritatis</h4>
-                                <p>Expedita veritatis consequuntur nihil tempore laudantium vitae denat pacta</p>
+                                <h4>Reltime Notifikasi</h4>
+                                <p>
+                                    Aplikasi STMJ dapat memunculkan notifikasi pemberitahuan bila terjadi kecelakaan, kondisi abnormal dan kondisi SOS pada penjelajah.
+                                </p>
                             </div>
                         </div>
 
                         <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="400">
                             <i class="ri-command-line"></i>
                             <div>
-                                <h4>Molestiae dolor</h4>
-                                <p>Et fuga et deserunt et enim. Dolorem architecto ratione tensa raptor marte</p>
+                                <h4>Danger Alert</h4>
+                                <p>
+                                    Aplikasi STMJ akan menampilkan daftar penjelajah yang dapat diindikasikan dalam bahaya bila kondisi penjalajah pada upnormal atau SOS.
+                                </p>
                             </div>
                         </div>
 
                         <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="500">
                             <i class="ri-radar-line"></i>
                             <div>
-                                <h4>Explicabo consectetur</h4>
-                                <p>Est autem dicta beatae suscipit. Sint veritatis et sit quasi ab aut inventore</p>
+                                <h4>Exploler Tracking</h4>
+                                <p>
+                                    Aplikasi STMJ dapat menampilakna jarak lokasi dan data kondisi penjelajah tertentu bila perlu dilakukanya penanganan oleh pihak pengelola.
+                                </p>
                             </div>
                         </div>
 
