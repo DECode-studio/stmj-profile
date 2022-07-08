@@ -9,7 +9,7 @@
                     <h3>Kenapa STMJ ?</h3>
                     <h2 style="text-justify: newspaper;">Soul Tracking Mobile Kunction (STMJ) adalah solusi tepat dalam pemantauan penjelajah di Alam</h2>
                     <p style="text-align: justify !important;">
-                        Soul Tracking Mobile Junction (STMJ) merupakan teknologi yang dapat memantau koordinat dan kondisi pendaki di Alam. Pemancar pada STMJ menggunakan teknologi berbasis wireless / nirkabel yang dapat menyampaikan informasi penjelajah secara langsung tanpa perantara dalam jangkauan yang luas.
+                        STMJ merupakan teknologi yang dapat memantau koordinat dan kondisi pendaki di Alam. Banyaknya peminat penjelajahan berbanding lurus dengan tingginya resiko kecelakaan yang dapat terjadi di Alam. Oleh sebab itu dibutuhkan suatu teknologi yang dapat memantau lokasi dan kondisi penjelajah di Alam, agar dapat mengurangi resiko kecelakaan tersebut. Namun, kurangnya konektifitas internet yang ada di Gunung menjadi kendala akan solusi tersebut. STMJ dapat menjadi solusi untuk pemantauan lokasi dan kondisi penjelajah, guna meminimalisir tingginya resiko kecelakaan, dikarenakan STMJ dapat mentransmisikan data lokasi dan kondisi penjelajah di Alam menggunakan gelombang radio yang tidak berpengaruh pada konektifitas Internet.
                     </p>
                 </div>
             </div>

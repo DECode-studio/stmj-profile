@@ -4,8 +4,8 @@
     <div class="container" data-aos="fade-up">
 
         <header class="section-header">
-            <h2>Our Values</h2>
-            <p>Odit est perspiciatis laborum et dicta</p>
+            <h2>Keunggulan</h2>
+            <p>STMJ hadir dengan memberikan keunggulan seperti:</p>
         </header>
 
         <div class="row">
