@@ -4,8 +4,8 @@
     <div class="container" data-aos="fade-up">
 
         <header class="section-header">
-            <h2>Features</h2>
-            <p>Laboriosam et omnis fuga quis dolor direda fara</p>
+            <h2>Fitur</h2>
+            <p>STMJ hadir dengan Fitur seperti:</p>
         </header>
 
         <div class="row">
@@ -20,42 +20,42 @@
                     <div class="col-md-6" data-aos="zoom-out" data-aos-delay="200">
                         <div class="feature-box d-flex align-items-center">
                             <i class="bi bi-check"></i>
-                            <h3>Eos aspernatur rem</h3>
+                            <h3>Pemantauan lokasi koordinat penjelajah</h3>
                         </div>
                     </div>
 
                     <div class="col-md-6" data-aos="zoom-out" data-aos-delay="300">
                         <div class="feature-box d-flex align-items-center">
                             <i class="bi bi-check"></i>
-                            <h3>Facilis neque ipsa</h3>
+                            <h3>Pemantauan suhu tubuh penjelajah</h3>
                         </div>
                     </div>
 
                     <div class="col-md-6" data-aos="zoom-out" data-aos-delay="400">
                         <div class="feature-box d-flex align-items-center">
                             <i class="bi bi-check"></i>
-                            <h3>Volup amet voluptas</h3>
+                            <h3>Pemantauan denyut nadi penjelajah</h3>
                         </div>
                     </div>
 
                     <div class="col-md-6" data-aos="zoom-out" data-aos-delay="500">
                         <div class="feature-box d-flex align-items-center">
                             <i class="bi bi-check"></i>
-                            <h3>Rerum omnis sint</h3>
+                            <h3>Menerima data dari banyak node</h3>
                         </div>
                     </div>
 
                     <div class="col-md-6" data-aos="zoom-out" data-aos-delay="600">
                         <div class="feature-box d-flex align-items-center">
                             <i class="bi bi-check"></i>
-                            <h3>Alias possimus</h3>
+                            <h3>Pembacaan data secara offline melalui Bluetooth</h3>
                         </div>
                     </div>
 
                     <div class="col-md-6" data-aos="zoom-out" data-aos-delay="700">
                         <div class="feature-box d-flex align-items-center">
                             <i class="bi bi-check"></i>
-                            <h3>Repellendus mollitia</h3>
+                            <h3>Notifikasi peringatan secara realtime</h3>
                         </div>
                     </div>
 
@@ -67,7 +67,7 @@
         <!-- Feature Tabs -->
         <div class="row feture-tabs" data-aos="fade-up">
             <div class="col-lg-6">
-                <h3>Neque officiis dolore maiores et exercitationem quae est seda lidera pat claero</h3>
+                <h3>Bagian - bagian </h3>
 
                 <!-- Tabs -->
                 <ul class="nav nav-pills mb-3">
