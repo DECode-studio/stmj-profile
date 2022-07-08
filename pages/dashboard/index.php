@@ -29,7 +29,7 @@ include "components/header.php";
 
     include "components/team_section.php";
 
-    include "components/client_section.php";
+    include "components/clients_section.php";
 
     include "components/recent_post_section.php";
 
