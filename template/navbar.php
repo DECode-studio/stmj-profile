@@ -3,8 +3,11 @@
     <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
 
         <a href="index.html" class="logo d-flex align-items-center">
-            <img src="assets/img/logo.png" alt="">
-            <span>FlexStart</span>
+            <img src="assets/logo/app_logo.png" alt="">
+            <div class="col ms-3">
+                <span class="fs-5 mb-4 row">Soul Tracking Mobile</span>
+                <span class="fs-5 row">Junction</span>
+            </div>
         </a>
 
         <nav id="navbar" class="navbar">
