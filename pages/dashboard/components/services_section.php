@@ -9,7 +9,7 @@
         </header>
 
         <div class="testimonials-slider swiper">
-            <div class="swiper-wrapper pt-5 px-5">
+            <div class="swiper-wrapper pt-5">
 
                 <div class="swiper-slide">
                     <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200" style="width: 355px; height: 380px;">
