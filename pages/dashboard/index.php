@@ -23,7 +23,7 @@ include "components/header.php";
 
     include "components/faq_section.php";
 
-    include "components/portofolio_section.php";
+    // include "components/portofolio_section.php";
 
     include "components/testimonials_section.php";
 
@@ -31,7 +31,7 @@ include "components/header.php";
 
     include "components/clients_section.php";
 
-    include "components/recent_post_section.php";
+    // include "components/recent_post_section.php";
 
     include "components/contact_section.php";
 
